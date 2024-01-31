@@ -1,0 +1,18 @@
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 80px;
+    animation: parpadear 5s infinite backwards;
+}
+
+
+
+@keyframes parpadear{
+    to{
+        color: rgba(217, 255, 0, 0.459);
+        text-shadow: 0 0 5px rgba(255, 255, 0, 0.777), 0 0 10px rgba(255, 255, 0, 0.726);
+    }
+}
