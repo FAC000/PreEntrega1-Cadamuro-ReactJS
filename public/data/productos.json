@@ -1,0 +1,92 @@
+[
+
+    {
+        "id": 1,
+        "nombre": "DRAGONBORN",
+        "marca": "REDRAGON",
+        "precio": 20000,
+        "stock": 10,
+        "img": "1.webp ",
+        "category": "teclado"
+    },
+    {
+        "id": 2,
+        "nombre": "ZEUS",
+        "marca": "REDRAGON",
+        "precio": 20000,
+        "stock": 5,
+        "img": "2.webp",
+        "category": "auriculares"
+
+    },
+    {
+        "id": 3,
+        "nombre": " COBRA",
+        "marca": "REDRAGON",
+        "precio": 15000,
+        "stock": 2,
+        "img": "3.jpg",
+        "category": "mouses"
+
+    },
+    {
+        "id": 4,
+        "nombre": "FIZZ",
+        "marca": "REDRAGON",
+        "precio": 25000,
+        "stock": 6,
+        "img": "4.webp",
+        "category": "teclado"
+    },
+
+    {
+        "id": 5,
+        "nombre": "DITI",
+        "marca": "REDRAGON",
+        "precio": 22000,
+        "stock": 6,
+        "img": "5.webp",
+        "category": "teclado"
+    },
+    {
+        "id": 6,
+        "nombre": "CENTROPHORUS2 M601-RGB",
+        "marca": "REDRAGON",
+        "precio": 15000,
+        "stock": 12,
+        "img": "6.webp",
+        "category": "mouses"
+    },
+    {
+        "id": 7,
+        "nombre": "M808W-KS STORM PRO ",
+        "marca": "REDRAGON",
+        "precio": 32000,
+        "stock": 1,
+        "img": "7.jfif",
+        "category": "mouses"
+    },
+
+    {
+        "id": 8,
+        "nombre": "LAMIA H320",
+        "marca": "REDRAGON",
+        "precio": 24000,
+        "stock": 7,
+        "img": "8.jfif",
+        "category": "auriculares"
+
+    },
+
+    {
+        "id": 9,
+        "nombre": "PANDORA 7.1",
+        "marca": "REDRAGON",
+        "precio": 20000,
+        "stock": 2,
+        "img": "9.jpeg",
+        "category": "auriculares"
+
+    }
+
+]

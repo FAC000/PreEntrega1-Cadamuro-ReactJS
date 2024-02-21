@@ -1,14 +1,32 @@
 import './styles/App.css'
-import './components/Navbar/Navbar.css'
-import'./components/Cartwidget/Cartwidget.css'
-import './components/Itemlistcontainer/Itemlistcontainer.css'
-import { Navbar } from './components/Navbar/Navbar'
-import {Itemlistcontainer} from './components/Itemlistcontainer/Itemlistcontainer'
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Navbar } from './components/Navbar'
+import { ItemListContainer } from './components/Itemlistcontainer'
+import { Footer } from './components/Footer'
+
+import { Cart } from './components/Cart'
+import { Checkout } from './components/Checkout'
+import {ItemDetailsContainer} from './components/ItemDetailsContainer'
+import { NotFound } from './components/NotFound'
+import Titulo from './components/Titulo'
+import  {Slide} from './components/Slide'
+
 export const App = () => {
 return (
-<div>
+<BrowserRouter>
   <Navbar />
-  <Itemlistcontainer titulo={"Ready player one?"} />
-</div>
-);
+  <Slide/>
+  <Titulo />
+  <Routes>
+    <Route path='/' element={<ItemListContainer />} />
+    <Route path='/category/:cid' element={<ItemListContainer />} />
+    <Route path='/product/:pid' element={<ItemDetailsContainer />} />
+    <Route path='/cart' element={<Cart />} />
+    <Route path='/checkout' element={<Checkout />} />
+    <Route path='*' element={<NotFound />} />
+  </Routes>
+  <Footer />
+</BrowserRouter>
+)
 }
