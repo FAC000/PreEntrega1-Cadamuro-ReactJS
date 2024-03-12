@@ -6,7 +6,8 @@ El mismo se desarollo para la cursada de React Js de "Coderhouse". Teniendo la i
 Funcional en pantallas comunemente denominadas "Desktop", aun no responsive para telefonos mobiles
 
 # LIBRERIAS USADAS
-
+React-router
+Firebase
 React Boostrap
 Boostrap
 Css Animation
