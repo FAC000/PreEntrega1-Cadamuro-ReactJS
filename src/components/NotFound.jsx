@@ -1,7 +1,7 @@
 export const NotFound = () => {
     return (
         <>
-            <h1>404 Not Found</h1>
+            <h3 className="text-center text-warning p-4 mb-4">404 NOT FOUND </h3>
         </>
     )
 }
