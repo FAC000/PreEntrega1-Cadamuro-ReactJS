@@ -22,14 +22,14 @@ Funcional en pantallas comunemente denominadas "Desktop", aun no responsive para
 
 # COMO COMENZAR?
 
-🌱 Clone the repository:
+✎ Clone the repository:
 
 ° git clone https://github.com/Caracolaracol/ReactJsFinal-coderhouse.git
 
-🌱 Install npm packages:
+✎ Install npm packages:
 
 ° npm install
  
-🌱 Run the app:
+✎ Run the app:
 
 ° npm start
