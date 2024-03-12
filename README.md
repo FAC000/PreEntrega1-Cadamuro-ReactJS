@@ -15,10 +15,13 @@ React-toastify
 # COMO COMENZAR?
 
 🌱 Clone the repository:
+
 git clone https://github.com/Caracolaracol/ReactJsFinal-coderhouse.git
 
 🌱 Install npm packages:
+
 npm install
  
 🌱 Run the app:
+
 npm start
