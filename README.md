@@ -7,22 +7,28 @@ Funcional en pantallas comunemente denominadas "Desktop", aun no responsive para
 
 # LIBRERIAS USADAS
 React-router
+
 Firebase
+
 React Boostrap
+
 Boostrap
+
 Css Animation
+
 React-toastify
+
 
 # COMO COMENZAR?
 
 🌱 Clone the repository:
 
-▶ git clone https://github.com/Caracolaracol/ReactJsFinal-coderhouse.git
+𑁍 git clone https://github.com/Caracolaracol/ReactJsFinal-coderhouse.git
 
 🌱 Install npm packages:
 
-▶ npm install
+𑁍 npm install
  
 🌱 Run the app:
 
-▶ npm start
+𑁍 npm start
