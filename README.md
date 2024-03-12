@@ -24,7 +24,7 @@ Funcional en pantallas comunemente denominadas "Desktop", aun no responsive para
 
 ✎ Clone the repository:
 
-° git clone https://github.com/Caracolaracol/ReactJsFinal-coderhouse.git
+° git clone https://github.com/FAC000/PreEntrega1-Cadamuro-ReactJS.git
 
 ✎ Install npm packages:
 
