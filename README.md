@@ -3,7 +3,7 @@
 
 Proyecto E-Commerce totalmente funcional.
 El mismo se desarollo para la cursada de React Js de "Coderhouse". Teniendo la idea de un comercio dedicado al rubro dedicado a la venta de perifericos de computadoras.
-Funcional en pantallas comunemente denominadas "Desktop", aun no responsive para telefonos mobiles
+Totalmente funcional y responsive.
 
 # LIBRERIAS USADAS
 
