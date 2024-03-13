@@ -1,5 +1,6 @@
 
-https://raw.githubusercontent.com/BraianVaylet/citrix-coderhouse-curso-react-tienda/master/src/assets/images/citric-logo.png
+
+![image](https://github.com/FAC000/PreEntrega1-Cadamuro-ReactJS/assets/128639800/6d71d66e-c94e-4fbd-b4e0-64e17f77e42c)
 
 
 
