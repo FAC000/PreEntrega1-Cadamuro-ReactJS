@@ -34,13 +34,58 @@ h1{
 
 .icon-hover{
 font-size: 35px;
-  cursor: pointer;
+cursor: pointer;
   
 }
 
 .icon-hover:hover {
-    
     transition: 0.5s;
     transform: translateY(-7px);
 }
 
+.img-itemcart {
+    min-width: 100px;
+ width: 200px;
+ }
+
+ .checkout {
+    min-width: 300px;
+ }
+
+ 
+
+ @media (max-width: 550px) { 
+   
+    .slide-img {
+        padding-top: 100px !important;
+      }
+
+      .titulo {
+        margin-top: 50px;
+      }
+
+  }
+
+ @media (max-width: 425px) { 
+   
+    .titulo {
+        margin-top: 40px;
+        font-size: 25px;
+      }
+
+  }
+
+
+ @media (max-width: 350px) { 
+   
+    .widget-carrito {
+        margin-top: 20px;
+        font-size: 15px;
+      }
+      .slide-img {
+        padding-top: 120px !important;
+      }
+  }
+
+  
+ 

@@ -6,7 +6,7 @@ export const Cartwidget = () => {
 return (
     <>
     <Link className='text-dark text-decoration-none' to= {'/Cart'}>
-        <button className=' text-black px-4 py-2 rounded  '>
+        <button className=' widget-carrito text-black px-4 py-2 rounded  '>
       
             <i className="bi bi-cart"></i>
             <span>{getItemQuantity()}</span>

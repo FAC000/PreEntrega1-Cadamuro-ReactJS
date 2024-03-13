@@ -1,7 +1,7 @@
 import './styles/App.css'
 import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Navbar } from './components/Navbar'
+import { BasicExample } from './components/Navbar'
 import { ItemListContainer } from './components/Itemlistcontainer'
 import { Footer } from './components/Footer'
 import { Cart } from './components/Cart'
@@ -17,7 +17,7 @@ export const App = () => {
 return (
 <BrowserRouter>
 <CarritoProvider>
-  <Navbar />
+  <BasicExample />
   <ToastContainer/>
   <Slide/>
   <Titulo />

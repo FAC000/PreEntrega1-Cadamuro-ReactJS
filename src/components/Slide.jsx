@@ -3,13 +3,16 @@ import {Carousel} from 'react-bootstrap'
 
 export const Slide = () => {
     return (
-        <div className='pt-5 mt-5 '>
-            <Carousel>
-                <Carousel.Item className='object-fit-cover' interval={2000}>
+        <div className='mt-5 pt-5 slide-img '>
+           
+            <Carousel className='mt-5  '>
+          
+                <Carousel.Item interval={2000}>
                     <img
-                        className="img-fluid w-50 object-fit-contain  "
+                        className="img-fluid w-50 img-slide  "
                         src="https://fanaticosdelhardware.com/wp-content/uploads/2021/01/hx-promo-headset-cloud-stinger-core-wireless-7-1-lg-1.jpg"
                         alt="First slide"
+                        
                     />
                     <Carousel.Caption>
                         <h3>PLAYER ONE</h3>
@@ -41,6 +44,7 @@ export const Slide = () => {
                 </Carousel.Item>
                 
             </Carousel>
+       
         </div>
     )
 }

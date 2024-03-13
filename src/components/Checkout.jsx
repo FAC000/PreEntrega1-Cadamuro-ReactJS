@@ -87,7 +87,7 @@ export const Checkout = () => {
 :
 
 
-    <div className="checkout mx-auto  rounded border border-ligth p-5 m-5  w-25 text-uppercase">
+    <div className="  checkout d-flex flex-column mx-auto  rounded border border-ligth p-5 m-5  w-25 text-uppercase">
         <h1 className=" completar-compra text-light text-center mb-5 ">completa tu compra</h1>
         <form action="" ref={formRef} onSubmit={handleSubmit}>
             <label className=" d-block mb-1 text-warning">Nombre: </label>
