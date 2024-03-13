@@ -1,8 +1,35 @@
-# React + Vite
+# REACT-JS CODERHOUSE FINAL
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Proyecto E-Commerce totalmente funcional.
+El mismo se desarollo para la cursada de React Js de "Coderhouse". Teniendo la idea de un comercio dedicado al rubro dedicado a la venta de perifericos de computadoras.
+Funcional en pantallas comunemente denominadas "Desktop", aun no responsive para telefonos mobiles
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# LIBRERIAS USADAS
+
+° React-router
+
+° Firebase
+
+° React Boostrap
+
+° Boostrap
+
+° Css Animation
+
+° React-toastify
+
+
+# COMO COMENZAR?
+
+✎ Clone the repository:
+
+° git clone https://github.com/FAC000/PreEntrega1-Cadamuro-ReactJS.git
+
+✎ Install npm packages:
+
+° npm install
+ 
+✎ Run the app:
+
+° npm start
