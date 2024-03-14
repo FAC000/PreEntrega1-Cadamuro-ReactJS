@@ -12,7 +12,7 @@ export const Checkout = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         const datForm = new FormData(formRef.current) 
-
+        const cliente = Object.fromEntries(datForm)
         const aux = [...carrito]
 
         aux.forEach(prodCarrito => {
@@ -21,7 +21,7 @@ export const Checkout = () => {
                     prodBDD.stock -= prodCarrito.quantity
                     updateProduct(prodBDD.id, prodBDD)
                 } else {
-                    toast.info(`El producto con el nombre ${prod.title} no puede continuar con la compra ya que no posee stock suficiente`, {
+                    toast.info(`El producto con el nombre ${prod.nombre} no puede continuar con la compra ya que no posee stock suficiente`, {
                         position: "top-right",
                         autoClose: 5000,
                         hideProgressBar: false,
@@ -43,7 +43,7 @@ export const Checkout = () => {
         createOrdenCompra(cliente, totalPrice(), aux2, new Date().toLocaleDateString('es-AR', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }))
             .then(ordenCompra => {
                 toast.success(`🛒 Muchas gracias por comprar con nosotros, su ID de compra es: ${ordenCompra.id} por un total de $${totalPrice()}. En breve nos contactaremos para realizar envio`, {
-                    position: "top-right",
+                    position: "bottom-right",
                     autoClose: 5000,
                     hideProgressBar: false,
                     closeOnClick: true,

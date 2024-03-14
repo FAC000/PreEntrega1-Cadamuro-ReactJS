@@ -44,7 +44,7 @@ cursor: pointer;
 }
 
 .img-itemcart {
-    min-width: 100px;
+min-width: 100px;
  width: 200px;
  }
 
@@ -58,11 +58,22 @@ cursor: pointer;
    
     .slide-img {
         padding-top: 100px !important;
+        
       }
 
       .titulo {
         margin-top: 50px;
       }
+
+   .carousel-item {
+    height: 250px !important;
+   }
+
+   .img-slide{
+    width: 300px;
+    height: 200px;
+}
+
 
   }
 

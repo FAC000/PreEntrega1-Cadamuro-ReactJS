@@ -5,11 +5,11 @@ export const Slide = () => {
     return (
         <div className='mt-5 pt-5 slide-img '>
            
-            <Carousel className='mt-5  '>
+            <Carousel className='mt-5 div-slide '>
           
                 <Carousel.Item interval={2000}>
                     <img
-                        className="img-fluid w-50 img-slide  "
+                        className="img-slide img-fluid w-50   "
                         src="https://fanaticosdelhardware.com/wp-content/uploads/2021/01/hx-promo-headset-cloud-stinger-core-wireless-7-1-lg-1.jpg"
                         alt="First slide"
                         
@@ -22,7 +22,7 @@ export const Slide = () => {
                 
                 <Carousel.Item interval={1500}>
                     <img
-                        className="img-fluid w-50"
+                        className=" img-slide img-fluid w-50"
                         src="https://www.byteside.com/content/images/wp-content/uploads/2021/01/razer-naga-trinity.jpg"
                         alt="Second slide"
                     />
@@ -33,7 +33,7 @@ export const Slide = () => {
                 </Carousel.Item>
                 <Carousel.Item interval={1500}>
                     <img
-                        className="img-fluid  w-50"
+                        className="img-fluid img-slide  w-50"
                         src="https://mlx.com.ar/wp-content/uploads/SlideMOB_LogitechG-2.png"
                         alt="Third slide"
                     />

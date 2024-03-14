@@ -6,7 +6,7 @@ return (
 <ul className="navbar-nav">    
 
 <li className="m-2">
-           <Link className="text-decoration-none m-3 text-dark" to={'/'}> 
+           <Link className="text-decoration-none m-2 text-dark" to={'/'}> 
             INICIO
            </Link>
         </li>
@@ -31,7 +31,7 @@ return (
             </li>
 
             <li className="m-2">
-                <Link className="text-decoration-none m-3 text-dark" to={'/Contacto'}> 
+                <Link className="text-decoration-none m-2 text-dark" to={'/Contacto'}> 
                 CONTACTANOS
                 </Link>
             </li>
