@@ -40,3 +40,13 @@ Totalmente funcional y responsive.
 ✎ Run the app:
 
 ° npm start
+
+# LINKS DE IMPORTANCIA
+
+REPOSITORIO GITHUB:
+
+https://github.com/FAC000/PreEntrega1-Cadamuro-ReactJS
+
+PAGINA HOSTEADA EN VERCEL:
+
+https://player-one-deploy-fi1r.vercel.app/
